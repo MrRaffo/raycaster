@@ -1,0 +1,164 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ANGLE_DELTA	main.c	41;"	d	file:
+BLOCK_SIZE	main.c	35;"	d	file:
+CC	Makefile	/^CC = gcc$/;"	m
+CHAR_LOWER_OFFSET	quickscreen.c	403;"	d	file:
+CHAR_NUMBER_OFFSET	quickscreen.c	405;"	d	file:
+CHAR_PACKED_SIZE	quickscreen.c	30;"	d	file:
+CHAR_PIXEL_HEIGHT	quickscreen.c	29;"	d	file:
+CHAR_PIXEL_WIDTH	quickscreen.c	28;"	d	file:
+CHAR_SET_SIZE	quickscreen.c	27;"	d	file:
+CHAR_UNPACKED_SIZE	quickscreen.c	31;"	d	file:
+CHAR_UPPER_OFFSET	quickscreen.c	404;"	d	file:
+CIRCLE_DEGREES	main.c	44;"	d	file:
+CIRCLE_RADIANS	main.c	43;"	d	file:
+COS_LOOKUP	main.c	/^float           *COS_LOOKUP         = NULL;$/;"	v
+Convert_Character	quickscreen.c	/^static int Convert_Character( char c )$/;"	f	file:
+Create_Font_Buffer	quickscreen.c	/^static int Create_Font_Buffer()$/;"	f	file:
+Create_Palette_Table	main.c	/^int Create_Palette_Table()$/;"	f
+Create_Screen_Buffer	main.c	/^int Create_Screen_Buffer()$/;"	f
+Create_Texture_Buffer	main.c	/^int Create_Texture_Buffer()$/;"	f
+Create_Trig_Lookup_Tables	main.c	/^int Create_Trig_Lookup_Tables()$/;"	f
+DARK_RED	main.c	/^colorRGBA_type      DARK_RED    = { 0x80, 0x00, 0x00, 0xff };$/;"	v
+DEBUG	utility.h	8;"	d
+DIRECTION_RIGHT	main.c	/^const vector2d_type             DIRECTION_RIGHT     = {  1.0,  0.0 };  $/;"	v
+DIRECTION_UP	main.c	/^const vector2d_type             DIRECTION_UP        = {  0.0, -1.0 };  \/\/ vector always points up$/;"	v
+Draw_Pixel	main.c	/^void Draw_Pixel( int x, int y, int color_index )$/;"	f
+Draw_Scene	main.c	/^void Draw_Scene()$/;"	f
+Draw_Vertical_Line	main.c	/^void Draw_Vertical_Line( int column_index, int column_start, int column_end, uint32_t color )$/;"	f
+Draw_Vertical_Texture_Line	main.c	/^void Draw_Vertical_Texture_Line( int tex_x, int col_x, int col_start, int col_end, uint8_t *texture )$/;"	f
+FLAGS	Makefile	/^FLAGS = -g -Wall$/;"	m
+Fill_Screen_Buffer	main.c	/^void Fill_Screen_Buffer( uint32_t color )$/;"	f
+Free_All_Memory	main.c	/^void Free_All_Memory()$/;"	f
+GREY	main.c	/^colorRGBA_type      GREY        = { 0xa0, 0xa0, 0xa0, 0xff };$/;"	v
+Get_Cos	main.c	/^float Get_Cos( int angle )$/;"	f
+Get_Sin	main.c	/^float Get_Sin( int angle )$/;"	f
+Get_Tan	main.c	/^float Get_Tan( int angle )$/;"	f
+HOR_TEXTURE_BUFFER	main.c	/^uint8_t         *HOR_TEXTURE_BUFFER = NULL;$/;"	v
+IDENTITY_MATRIX	main.c	/^const matrix2d_type             IDENTITY_MATRIX     = {{   $/;"	v
+INPUT	Makefile	/^INPUT = main.o quickscreen.o utility.o vecmat.o$/;"	m
+Init_Globals	main.c	/^void Init_Globals()$/;"	f
+LIBS	Makefile	/^LIBS = -lSDL2 -lSDL2main -lm$/;"	m
+Load_Font_Data	quickscreen.c	/^static int Load_Font_Data()$/;"	f	file:
+MAX_FRAME_TIME	main.c	30;"	d	file:
+OUTPUT	Makefile	/^OUTPUT = raycaster$/;"	m
+PALETTE_SIZE	main.c	28;"	d	file:
+PALETTE_TABLE	main.c	/^uint32_t        *PALETTE_TABLE      = NULL;$/;"	v
+PLAYER_FOV	main.c	46;"	d	file:
+PLAYER_GRID_START_POS_X	main.c	39;"	d	file:
+PLAYER_GRID_START_POS_Y	main.c	40;"	d	file:
+PLAYER_HEIGHT	main.c	37;"	d	file:
+PLAYER_SPEED	main.c	47;"	d	file:
+QUI_COLOR_BLACK	quickscreen.h	/^                QUI_COLOR_BLACK,$/;"	e	enum:__anon1
+QUI_COLOR_BLUE	quickscreen.h	/^                QUI_COLOR_BLUE } colorIndex_type;$/;"	e	enum:__anon1
+QUI_COLOR_GREEN	quickscreen.h	/^                QUI_COLOR_GREEN,$/;"	e	enum:__anon1
+QUI_COLOR_RED	quickscreen.h	/^                QUI_COLOR_RED,$/;"	e	enum:__anon1
+QUI_COLOR_TRANS	quickscreen.h	/^typedef enum {  QUI_COLOR_TRANS,$/;"	e	enum:__anon1
+QUI_COLOR_WHITE	quickscreen.h	/^                QUI_COLOR_WHITE,$/;"	e	enum:__anon1
+QUI_Check_Quit	quickscreen.c	/^int QUI_Check_Quit()$/;"	f
+QUI_Clear_Screen	quickscreen.c	/^void QUI_Clear_Screen( colorRGBA_type color )$/;"	f
+QUI_Close	quickscreen.c	/^void QUI_Close()$/;"	f
+QUI_Create_Display	quickscreen.c	/^int QUI_Create_Display( char *title, int width, int height, int res_width, int res_height )$/;"	f
+QUI_Delay	quickscreen.c	/^void QUI_Delay( int milli )$/;"	f
+QUI_Draw_Buffer	quickscreen.c	/^void QUI_Draw_Buffer( uint32_t *buffer )$/;"	f
+QUI_Draw_Horizontal_Line	quickscreen.c	/^void QUI_Draw_Horizontal_Line( int x1, int x2, int y, colorRGBA_type color )$/;"	f
+QUI_Draw_Vertical_Line	quickscreen.c	/^void QUI_Draw_Vertical_Line( int x, int y1, int y2, colorRGBA_type color )$/;"	f
+QUI_GetTicks	quickscreen.c	/^uint32_t QUI_GetTicks()$/;"	f
+QUI_Get_Endianess	quickscreen.c	/^int QUI_Get_Endianess()$/;"	f
+QUI_Get_Key_State	quickscreen.c	/^void QUI_Get_Key_State()$/;"	f
+QUI_Load_Media	quickscreen.c	/^int QUI_Load_Media()$/;"	f
+QUI_Place_Char	quickscreen.c	/^void QUI_Place_Char( int c, int x, int y, colorRGBA_type forecolor, colorRGBA_type bgcolor, int transparent_flag )$/;"	f
+QUI_Print_SDL_Error	quickscreen.h	8;"	d
+QUI_Pump_Events	quickscreen.c	/^void QUI_Pump_Events()$/;"	f
+QUI_Refresh_Screen	quickscreen.c	/^void QUI_Refresh_Screen()$/;"	f
+QUI_Set_Pixel	quickscreen.c	/^void QUI_Set_Pixel( int x, int y, colorRGBA_type color )$/;"	f
+QUI_Simple_Text	quickscreen.c	/^void QUI_Simple_Text( char *str, int x, int y, colorRGBA_type forecolor, colorRGBA_type bgcolor, int transparent_flag )$/;"	f
+RED	main.c	/^colorRGBA_type      RED         = { 0xff, 0x00, 0x00, 0xff };$/;"	v
+RENDERMODE	quickscreen.c	20;"	d	file:
+RGBA_BLACK	quickscreen.c	/^const colorRGBA_type RGBA_BLACK             = { 0x00, 0x00, 0x00, 0xff };$/;"	v
+RGBA_BLUE	quickscreen.c	/^const colorRGBA_type RGBA_BLUE              = { 0x00, 0x00, 0xff, 0xff };$/;"	v
+RGBA_GREEN	quickscreen.c	/^const colorRGBA_type RGBA_GREEN             = { 0x00, 0xff, 0x00, 0xff };$/;"	v
+RGBA_RED	quickscreen.c	/^const colorRGBA_type RGBA_RED               = { 0xff, 0x00, 0x00, 0xff };$/;"	v
+RGBA_TRANS	quickscreen.c	/^const colorRGBA_type RGBA_TRANS             = { 0x00, 0x00, 0x00, 0x00 };$/;"	v
+RGBA_WHITE	quickscreen.c	/^const colorRGBA_type RGBA_WHITE             = { 0xff, 0xff, 0xff, 0xff };$/;"	v
+SCREEN_BUFFER	main.c	/^uint32_t        *SCREEN_BUFFER      = NULL;$/;"	v
+SCREEN_HEIGHT_RES	main.c	26;"	d	file:
+SCREEN_WIDTH_RES	main.c	25;"	d	file:
+SIN_LOOKUP	main.c	/^float           *SIN_LOOKUP         = NULL;$/;"	v
+TAN_LOOKUP	main.c	/^float           *TAN_LOOKUP         = NULL;$/;"	v
+TEXTURE_SIZE	main.c	36;"	d	file:
+Test_Palette	main.c	/^void Test_Palette()$/;"	f
+Test_Textures	main.c	/^void Test_Textures()$/;"	f
+UTI_EC_Malloc	utility.c	/^void *UTI_EC_Malloc( size_t size )$/;"	f
+UTI_Fatal_Error	utility.c	/^void UTI_Fatal_Error( char *msg )$/;"	f
+UTI_Print_Debug	utility.h	24;"	d
+UTI_Print_Debug	utility.h	26;"	d
+UTI_Print_Error	utility.h	20;"	d
+VEC_Get_Vector_Magnitude	vecmat.c	/^float VEC_Get_Vector_Magnitude( vector2d_type vec )$/;"	f
+VEC_Identity_Matrix	vecmat.c	/^matrix2d_type *VEC_Identity_Matrix()$/;"	f
+VEC_Matrix_Dot_Product	vecmat.c	/^void VEC_Matrix_Dot_Product( matrix2d_type *mat1, matrix2d_type *mat2 )$/;"	f
+VEC_Matrix_Rotation	vecmat.c	/^void VEC_Matrix_Rotation( matrix2d_type *mat, float angle )$/;"	f
+VEC_Matrix_Scale	vecmat.c	/^void VEC_Matrix_Scale( matrix2d_type *mat, float xscale, float yscale )$/;"	f
+VEC_Matrix_Transform_Vector	vecmat.c	/^vector2d_type VEC_Matrix_Transform_Vector( matrix2d_type *mat1, vector2d_type vec )$/;"	f
+VEC_Matrix_Translate	vecmat.c	/^void VEC_Matrix_Translate( matrix2d_type *mat, float x, float y )$/;"	f
+VEC_Print_Matrix	vecmat.c	/^void VEC_Print_Matrix( matrix2d_type *mat )$/;"	f
+VEC_Print_Vector	vecmat.c	/^void VEC_Print_Vector( vector2d_type vec )$/;"	f
+VEC_Scale_Vector	vecmat.c	/^vector2d_type VEC_Scale_Vector( vector2d_type vec, float scale )$/;"	f
+VEC_Vector	vecmat.c	/^vector2d_type VEC_Vector( float x, float y )$/;"	f
+VEC_Vector_Addition	vecmat.c	/^vector2d_type VEC_Vector_Addition( vector2d_type vec1, vector2d_type vec2 )$/;"	f
+VEC_Vector_Dot_Product	vecmat.c	/^float VEC_Vector_Dot_Product( vector2d_type vec )$/;"	f
+VEC_Vector_Normal	vecmat.c	/^vector2d_type VEC_Vector_Normal( vector2d_type vec )$/;"	f
+VEC_Vector_Subtraction	vecmat.c	/^vector2d_type VEC_Vector_Subtraction( vector2d_type vec1, vector2d_type vec2 )$/;"	f
+VER_TEXTURE_BUFFER	main.c	/^uint8_t         *VER_TEXTURE_BUFFER = NULL;$/;"	v
+WHITE	main.c	/^colorRGBA_type      WHITE       = { 0xff, 0xff, 0xff, 0xff };$/;"	v
+WINDOW_HEIGHT	main.c	23;"	d	file:
+WINDOW_WIDTH	main.c	22;"	d	file:
+WORLD_HEIGHT	main.c	33;"	d	file:
+WORLD_MAP	main.c	/^int WORLD_MAP[WORLD_HEIGHT][WORLD_WIDTH] =$/;"	v
+WORLD_WIDTH	main.c	32;"	d	file:
+__func__	utility.h	13;"	d
+__func__	utility.h	15;"	d
+__quickscreen_h__	quickscreen.h	6;"	d
+__utility_h__	utility.h	6;"	d
+__vecmat_h__	vecmat.h	6;"	d
+a	quickscreen.h	/^                        unsigned char a;$/;"	m	struct:colorRGBA_s
+b	quickscreen.h	/^                        unsigned char b;$/;"	m	struct:colorRGBA_s
+byte	quickscreen.h	/^typedef unsigned char byte;$/;"	t
+colorIndex_type	quickscreen.h	/^                QUI_COLOR_BLUE } colorIndex_type;$/;"	t	typeref:enum:__anon1
+colorRGBA_s	quickscreen.h	/^struct colorRGBA_s  {   unsigned char r;$/;"	s
+colorRGBA_type	quickscreen.h	/^typedef struct colorRGBA_s colorRGBA_type;$/;"	t	typeref:struct:colorRGBA_s
+font_data_buffer	quickscreen.c	/^static byte                 *font_data_buffer = NULL;             \/\/ buffer for file$/;"	v	file:
+font_data_file	quickscreen.c	/^static char                 font_data_file[] = "data\/font";         \/\/ font raw data$/;"	v	file:
+g	quickscreen.h	/^                        unsigned char g;$/;"	m	struct:colorRGBA_s
+keys	quickscreen.c	/^const uint8_t *keys;$/;"	v
+line2d_s	vecmat.h	/^struct line2d_s     {$/;"	s
+line2d_type	vecmat.h	/^typedef struct line2d_s     line2d_type;$/;"	t	typeref:struct:line2d_s
+m	vecmat.h	/^                        float m[3][3];$/;"	m	struct:matrix2d_s
+main	main.c	/^int main( int argc, char *argv[] )$/;"	f
+matrix	main.c	/^matrix2d_type           matrix;$/;"	v
+matrix2d_s	vecmat.h	/^struct matrix2d_s   {$/;"	s
+matrix2d_type	vecmat.h	/^typedef struct matrix2d_s   matrix2d_type;$/;"	t	typeref:struct:matrix2d_s
+pixel_data_buffer	quickscreen.c	/^static byte                 *pixel_data_buffer = NULL;               \/\/ buffer for unpacked font$/;"	v	file:
+player_angle	main.c	/^float                   player_angle    = 0.0;$/;"	v
+player_dir	main.c	/^vector2d_type           player_dir;$/;"	v
+player_pos	main.c	/^vector2d_type           player_pos      = { PLAYER_GRID_START_POS_X, PLAYER_GRID_START_POS_Y };$/;"	v
+player_screen	main.c	/^vector2d_type           player_screen;$/;"	v
+r	quickscreen.h	/^struct colorRGBA_s  {   unsigned char r;$/;"	m	struct:colorRGBA_s
+render_height	quickscreen.c	/^static int              render_height       = 0;$/;"	v	file:
+render_surface	quickscreen.c	/^static SDL_Surface      *render_surface    = NULL;$/;"	v	file:
+render_width	quickscreen.c	/^static int              render_width        = 0;$/;"	v	file:
+screen_height	quickscreen.c	/^static int              screen_height       = 0;$/;"	v	file:
+screen_surface	quickscreen.c	/^static SDL_Surface      *screen_surface     = NULL;$/;"	v	file:
+screen_width	quickscreen.c	/^static int              screen_width        = 0;$/;"	v	file:
+screen_window	quickscreen.c	/^static SDL_Window       *screen_window      = NULL;$/;"	v	file:
+v1	vecmat.h	/^                        int v1;$/;"	m	struct:line2d_s
+v2	vecmat.h	/^                        int v2;$/;"	m	struct:line2d_s
+vector2d_s	vecmat.h	/^struct vector2d_s   {$/;"	s
+vector2d_type	vecmat.h	/^typedef struct vector2d_s   vector2d_type;$/;"	t	typeref:struct:vector2d_s
+x	vecmat.h	/^                        float x;$/;"	m	struct:vector2d_s
+y	vecmat.h	/^                        float y;$/;"	m	struct:vector2d_s
